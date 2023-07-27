@@ -20,7 +20,7 @@ def Main(cash) :
         clear()
         print(colorama.Fore.RED, "DON'T FUCK WITH ME ON THIS.")
         t.sleep(5)
-        Main()
+        Main(cash)
     clear()
     print(colorama.Fore.WHITE, "Alright! Now please select a number between 0 and 36! Or, bet on Red or Black by typing R or B respectively. \n") #IM SO SORRY I DONT WANT TO CODE AMERICAN ROULETTE WITH 00
     num = input("")
